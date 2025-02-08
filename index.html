@@ -1,0 +1,331 @@
+<html lang="en">
+    <head>
+        <title>Backstreet Boys</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/brand.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/6427a83ee5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div>
+                        <a href="#">Backstreet Boys</a>
+                    </div>
+                    <ul id="sidemenu">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#member">Member</a>
+                        </li>
+                        <li>
+                            <a href="#album">Album</a>
+                        </li>
+                        <li>
+                            <a href="#award">Awards</a>
+                        </li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()" style="cursor: pointer;"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>
+                        The Best-Selling Boy Band in History
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <button class="top-button" onclick="scrollToTop()">
+            <i class="fa fa-arrow-up"></i>
+        </button>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/back_ground.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About</h1>
+                        <hr class="about-line">
+                        <p class="about-text">
+                            Backstreet Boys (often abbreviated as BSB) are an American vocal group and boy band consisting of Nick Carter, Howie Dorough, AJ McLean, and cousins Brian Littrell and Kevin Richardson. The band formed in 1993 in Orlando, Florida.
+                          
+                            The group rose to fame with their debut album, Backstreet Boys (1996). In the following year, they released their second album Backstreet's Back (1997), along with their self-titled U.S. album, Backstreet Boys (1997), which continued the group's success worldwide. They rose to superstardom with their third studio album Millennium (1999), anchored by the worldwide hit "I Want It That Way," and its follow-up album, Black & Blue (2000). They also released a greatest hits album, The Hits – Chapter One (2001). After a two-year hiatus, they regrouped and released a comeback album, Never Gone (2005). After the conclusion of the Never Gone Tour in 2006, Richardson left the group to pursue other interests. The group then released two albums as a quartet: Unbreakable (2007) and This Is Us (2009).
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Song</p>
+                            <p class="tab-links" onclick="opentab('experience')">Award</p>
+                            <p class="tab-links" onclick="opentab('education')">Album</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>AJ McLean</span>
+                                    <br>
+                                    Vocalist, Backing Vocals, Performer
+                                    <ul>
+                                        <li>
+                                            <strong>Top Song:</strong>
+                                            "I Want It That Way" (1999)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>Howie Dorough</span>
+                                    <br>
+                                    Vocalist, Backing Vocals, Performer
+                                    <ul>
+                                        <li>
+                                            <strong>Top Song:</strong>
+                                            "Backstreet's Back (Alright)" (1997)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>Nick Carter</span>
+                                    <br>
+                                    Lead Vocals, Performer, Songwriter
+                                    <ul>
+                                        <li>
+                                            <strong>Top Song:</strong>
+                                            "Larger Than Life" (1999)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>Kevin Richardson</span>
+                                    <br>
+                                    Vocalist, Backing Vocals, Performer, Songwriter
+                                    <ul>
+                                        <li>
+                                            <strong>Top Song:</strong>
+                                            "Shape of My Heart" (2000)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>Brian Littrell</span>
+                                    <br>
+                                    Lead Vocals, Backing Vocals, Performer, Songwriter
+                                    <ul>
+                                        <li>
+                                            <strong>Top Song:</strong>
+                                            "Quit Playing Games (With My Heart)" (1996)
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>Top Award:</span>
+                                    <br>
+                                    MTV Europe Music Award for Best Pop (2000)
+                                </li>
+                                <li>
+                                    <span>Top Award:</span>
+                                    <br>
+                                    American Music Award for Favorite Pop/Rock Band (2000)
+                                </li>
+                                <li>
+                                    <span>Top Award:</span>
+                                    <br>
+                                    Billboard Music Award for Top Selling Album of the Year (1999)
+                                </li>
+                                <li>
+                                    <span>Top Award:</span>
+                                    <br>
+                                    People's Choice Award for Favorite Music Group (2001)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <h3>Top Albums by Backstreet Boys</h3>
+                            <ul>
+                                <li>
+                                    <span>1996</span>
+                                    <br>
+                                    Backstreet Boys (Debut Album)
+                                </li>
+                                <li>
+                                    <span>1999</span>
+                                    <br>
+                                    Millennium
+                                </li>
+                                <li>
+                                    <span>2000</span>
+                                    <br>
+                                    Black & Blue
+                                </li>
+                                <li>
+                                    <span>2005</span>
+                                    <br>
+                                    Never Gone
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="member">
+            <div class="member-container mt-5">
+                <h2 class="member-sub-title">Team Members</h2>
+                <hr class="member-line">
+                <div class="member-row">
+                    <div class="member-col-md-4">
+                        <div class="member-card" style="width: 18rem;">
+                            <img src="images/ajjj.jpg" class="member-card-img-top" alt="...">
+                            <div class="member-card-body">
+                                <h5 class="member-card-title">AJ McLean</h5>
+                                <p class="card-text">Vocalist, Backing Vocals, Performer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-col-md-4">
+                        <div class="member-card" style="width: 18rem;">
+                            <img src="images/howie.png" class="member-card-img-top" alt="...">
+                            <div class="member-card-body">
+                                <h5 class="member-card-title">Howie Dorough</h5>
+                                <p class="card-text">Vocalist, Backing Vocals, Performer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-col-md-4">
+                        <div class="member-card" style="width: 18rem;">
+                            <img src="images/nick.jpg" class="member-card-img-top" alt="...">
+                            <div class="member-card-body">
+                                <h5 class="member-card-title">Nick Carter</h5>
+                                <p class="card-text">Lead Vocals, Performer, Songwriter.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-row">
+                    <div class="member-col-md-6">
+                        <div class="member-card" style="width: 18rem;">
+                            <img src="images/kevin.jpg" class="member-card-img-top" alt="...">
+                            <div class="member-card-body">
+                                <h5 class="member-card-title">Kevin Richardson</h5>
+                                <p class="card-text">Vocalist, Backing Vocals, Performer, Songwriter.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-col-md-6">
+                        <div class="member-card" style="width: 18rem;">
+                            <img src="images/brian.jpg" class="member-card-img-top" alt="...">
+                            <div class="member-card-body">
+                                <h5 class="member-card-title">Brian Littrell</h5>
+                                <p class="card-text">Lead Vocals, Backing Vocals, Performer, Songwriter.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="album">
+            <div class="container">
+                <h1 class="sub-title">Top Album</h1>
+                <hr class="album-line">
+                <div class="album-list">
+                    <div>
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <h3>Backstreet Boys (1996)</h3>
+                        <p>Debut album featuring hits like "Quit Playing Games" and "As Long As You Love Me."</p>
+                        <a href="https://en.wikipedia.org/wiki/Backstreet_Boys_(album)" target="_blank">Click to Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <h3>Millennium (1999)</h3>
+                        <p>Includes iconic hits like "I Want It That Way" and "Larger Than Life."</p>
+                        <a href="https://en.wikipedia.org/wiki/Millennium_(Backstreet_Boys_album)" target="_blank">Click to Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <h3>Black & Blue (2000)</h3>
+                        <p>Featuring hits like "Shape of My Heart" and "The Call."</p>
+                        <a href="https://en.wikipedia.org/wiki/Black_%26_Blue" target="_blank">Click to Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <h3>Never Gone (2005)</h3>
+                        <p>Marking a more mature sound, with songs like "Incomplete" and "Just Want You to Know."</p>
+                        <a href="https://en.wikipedia.org/wiki/Never_Gone" target="_blank">Click to Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="award">
+            <div class="award-container mt-5">
+                <h2 class="award-sub-title">Top Awards</h2>
+                <hr class="award-line">
+                <div class="award-row">
+                    <div class="award-card">
+                        <img src="images/DNA.png" class="award-card-img-top" alt="AJ McLean">
+                        <div class="award-card-body">
+                            <h5 class="award-card-title">Grammy Award for Best Pop Vocal Album (2019)</h5>
+                            <p class="card-text">
+                                Awarded for the album "DNA"
+                                <br>
+                                American Music Award for Favorite Pop/Rock Band (1999)
+                                <br>
+                                Billboard Music Award for Top Selling Album (1999) for "Millennium".
+                            </p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img src="images/WANT.jpg" class="award-card-img-top" alt="Howie Dorough">
+                        <div class="award-card-body">
+                            <h5 class="award-card-title">Billboard Music Award for Top Selling Artist (1999)</h5>
+                            <p class="card-text">
+                                Billboard Music Award for Top Selling Artist (1999)
+                                <br>
+                                MTV Video Music Award for Best Pop Video for "I Want It That Way" (1999)
+                                <br>
+                                Teen Choice Award for Best Music Group (2000).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img src="images/3rd.jpg" class="award-card-img-top" alt="Nick Carter">
+                        <div class="award-card-body">
+                            <h5 class="award-card-title">MTV Europe Music Award for Best Pop Group (2000)</h5>
+                            <p class="card-text">
+                                Awarded for "DNA"
+                                <br>
+                                Billboard Music Award for Top Selling Song (1999) for "I Want It That Way".
+                            </p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img src="images/5th.jpg" class="award-card-img-top" alt="Kevin Richardson">
+                        <div class="award-card-body">
+                            <h5 class="award-card-title">American Music Award for Favorite Pop/Rock Group (1999)</h5>
+                            <p class="card-text">
+                                American Music Award for Favorite Pop/Rock Group (1999)
+                                <br>
+                                Billboard Music Award for Top Artist (1999).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>
+                <i class="fa-solid fa-copyright"></i>
+                Backstreet Boys - Joshua Calopez
+            </p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
