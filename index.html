@@ -1,331 +1,225 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Backstreet Boys</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>West Life</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="images/brand.png" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/6427a83ee5.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="https://www.westlife.com/wp-content/themes/westlife/assets/images/favicon-16x16.png" type="image/x-icon">
     </head>
     <body>
-        <div id="header">
+        <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary">
             <div class="container">
-                <nav>
-                    <div>
-                        <a href="#">Backstreet Boys</a>
-                    </div>
-                    <ul id="sidemenu">
-                        <li>
-                            <a href="#">Home</a>
+                <a class="navbar-brand mr-2" href="index.html">
+                    <span class="bi bi-file-music mr-2"></span>
+                    Fan Page
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hero">Home</a>
                         </li>
-                        <li>
-                            <a href="#about">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#members">Members</a>
                         </li>
-                        <li>
-                            <a href="#member">Member</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#songs">Songs</a>
                         </li>
-                        <li>
-                            <a href="#album">Album</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#awards">Awards</a>
                         </li>
-                        <li>
-                            <a href="#award">Awards</a>
-                        </li>
-                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                     </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()" style="cursor: pointer;"></i>
-                </nav>
-                <div class="header-text">
-                    <h1>
-                        The Best-Selling Boy Band in History
-                    </h1>
                 </div>
             </div>
-        </div>
-        <button class="top-button" onclick="scrollToTop()">
-            <i class="fa fa-arrow-up"></i>
-        </button>
-        <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="images/back_ground.jpg">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">About</h1>
-                        <hr class="about-line">
-                        <p class="about-text">
-                            Backstreet Boys (often abbreviated as BSB) are an American vocal group and boy band consisting of Nick Carter, Howie Dorough, AJ McLean, and cousins Brian Littrell and Kevin Richardson. The band formed in 1993 in Orlando, Florida.
-                          
-                            The group rose to fame with their debut album, Backstreet Boys (1996). In the following year, they released their second album Backstreet's Back (1997), along with their self-titled U.S. album, Backstreet Boys (1997), which continued the group's success worldwide. They rose to superstardom with their third studio album Millennium (1999), anchored by the worldwide hit "I Want It That Way," and its follow-up album, Black & Blue (2000). They also released a greatest hits album, The Hits – Chapter One (2001). After a two-year hiatus, they regrouped and released a comeback album, Never Gone (2005). After the conclusion of the Never Gone Tour in 2006, Richardson left the group to pursue other interests. The group then released two albums as a quartet: Unbreakable (2007) and This Is Us (2009).
+        </nav>
+        <section class="bg-dark text-light text-start" id="hero">
+            <div class="container p-5">
+                <div class="d-flex flex-column flex-sm-row align-items-center">
+                    <div class="text-left mb-4 mb-sm-0">
+                        <h1 class="text-start mb-5">Westlife</h1>
+                        <p class="text-justify">
+                            Westlife is an iconic Irish pop group formed in Dublin in 1998. Known for their timeless music, they have sold over 55 million records and are one of the world's best-selling music artists. The group has received multiple accolades and has a massive fan base worldwide.
                         </p>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Song</p>
-                            <p class="tab-links" onclick="opentab('experience')">Award</p>
-                            <p class="tab-links" onclick="opentab('education')">Album</p>
+                        <p class="text-justify">
+                            After a brief disbandment in 2012, Westlife reunited in 2018 and continues to captivate fans with their powerful ballads and pop hits. The band consists of Shane Filan, Mark Feehily, Kian Egan, and Nicky Byrne, with former member Brian McFadden leaving the group in 2004.
+                        </p>
+                        <p class="text-justify">
+                            Westlife, initially formed as a five-member boy band, became known for their heart-touching ballads and hit singles. The group took the music world by storm in the late '90s, and their blend of harmony and smooth pop was admired globally. Albums like *Westlife* (1999), *Coast to Coast* (2000), and *World of Our Own* (2001) solidified their place in pop history.
+                        </p>
+                        <p class="text-justify">
+                            The group has released twelve studio albums: four as a five-piece and eight as a four-piece. They rose to fame with their debut international self-titled studio album, Westlife (1999). It was followed by Coast to Coast (2000), World of Our Own (2001), and Turnaround (2003).
+                        </p>
+                        <p class="text-justify">
+                            Following the departure of McFadden, the group released the cover albums ...Allow Us to Be Frank (2004) and The Love Album (2006), the albums Face to Face (2005), Back Home (2007), Where We Are (2009), and Gravity (2010), followed by an eight-year split. After reforming in 2018, the quartet released the studio albums Spectrum (2019) and Wild Dreams (2021).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="members" class="m-5 p-5">
+            <div class="container text-center">
+                <h2 class="text-center mb-4">Meet the Members</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card member-card p-3 mb-5">
+                            <img src="img/1.png" alt="Kian Egan" class="member-img">
+                            <h5>Kian Egan</h5>
+                            <p>Vocalist</p>
                         </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li>
-                                    <span>AJ McLean</span>
-                                    <br>
-                                    Vocalist, Backing Vocals, Performer
-                                    <ul>
-                                        <li>
-                                            <strong>Top Song:</strong>
-                                            "I Want It That Way" (1999)
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <span>Howie Dorough</span>
-                                    <br>
-                                    Vocalist, Backing Vocals, Performer
-                                    <ul>
-                                        <li>
-                                            <strong>Top Song:</strong>
-                                            "Backstreet's Back (Alright)" (1997)
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <span>Nick Carter</span>
-                                    <br>
-                                    Lead Vocals, Performer, Songwriter
-                                    <ul>
-                                        <li>
-                                            <strong>Top Song:</strong>
-                                            "Larger Than Life" (1999)
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <span>Kevin Richardson</span>
-                                    <br>
-                                    Vocalist, Backing Vocals, Performer, Songwriter
-                                    <ul>
-                                        <li>
-                                            <strong>Top Song:</strong>
-                                            "Shape of My Heart" (2000)
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <span>Brian Littrell</span>
-                                    <br>
-                                    Lead Vocals, Backing Vocals, Performer, Songwriter
-                                    <ul>
-                                        <li>
-                                            <strong>Top Song:</strong>
-                                            "Quit Playing Games (With My Heart)" (1996)
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card member-card p-3 mb-5">
+                            <img src="img/2.png" alt="Mark Feehily" class="member-img">
+                            <h5>Mark Feehily</h5>
+                            <p>Vocalist</p>
                         </div>
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li>
-                                    <span>Top Award:</span>
-                                    <br>
-                                    MTV Europe Music Award for Best Pop (2000)
-                                </li>
-                                <li>
-                                    <span>Top Award:</span>
-                                    <br>
-                                    American Music Award for Favorite Pop/Rock Band (2000)
-                                </li>
-                                <li>
-                                    <span>Top Award:</span>
-                                    <br>
-                                    Billboard Music Award for Top Selling Album of the Year (1999)
-                                </li>
-                                <li>
-                                    <span>Top Award:</span>
-                                    <br>
-                                    People's Choice Award for Favorite Music Group (2001)
-                                </li>
-                            </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card member-card p-3 mb-5">
+                            <img src="img/3.png" alt="Shane Filan" class="member-img">
+                            <h5>Shane Filan</h5>
+                            <p>Lead Singer</p>
                         </div>
-                        <div class="tab-contents" id="education">
-                            <h3>Top Albums by Backstreet Boys</h3>
-                            <ul>
-                                <li>
-                                    <span>1996</span>
-                                    <br>
-                                    Backstreet Boys (Debut Album)
-                                </li>
-                                <li>
-                                    <span>1999</span>
-                                    <br>
-                                    Millennium
-                                </li>
-                                <li>
-                                    <span>2000</span>
-                                    <br>
-                                    Black & Blue
-                                </li>
-                                <li>
-                                    <span>2005</span>
-                                    <br>
-                                    Never Gone
-                                </li>
-                            </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card member-card p-3 mb-2">
+                            <img src="img/4.png" alt="Nicky Byrne" class="member-img">
+                            <h5>Nicky Byrne</h5>
+                            <p>Vocalist</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="member">
-            <div class="member-container mt-5">
-                <h2 class="member-sub-title">Team Members</h2>
-                <hr class="member-line">
-                <div class="member-row">
-                    <div class="member-col-md-4">
-                        <div class="member-card" style="width: 18rem;">
-                            <img src="images/ajjj.jpg" class="member-card-img-top" alt="...">
-                            <div class="member-card-body">
-                                <h5 class="member-card-title">AJ McLean</h5>
-                                <p class="card-text">Vocalist, Backing Vocals, Performer.</p>
-                            </div>
-                        </div>
+        </section>
+        <section id="songs" class="bg-light text-dark p-5">
+            <div class="container text-center">
+                <h2 class="text-center mb-4">Westlife's Top Hits</h2>
+                <hr>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="youtube-video mb-4" style="background-color: #000; width: 80%; max-width: 600px;">
+                        <h4 class="text-white mt-3">Westlife - My Love (Official Video)</h4>
+                        <video
+                            width="100%"
+                            height="350"
+                            controls
+                            poster="img/vid1.jpg"
+                        >
+                            <source src="vid/mylove.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
-                    <div class="member-col-md-4">
-                        <div class="member-card" style="width: 18rem;">
-                            <img src="images/howie.png" class="member-card-img-top" alt="...">
-                            <div class="member-card-body">
-                                <h5 class="member-card-title">Howie Dorough</h5>
-                                <p class="card-text">Vocalist, Backing Vocals, Performer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="member-col-md-4">
-                        <div class="member-card" style="width: 18rem;">
-                            <img src="images/nick.jpg" class="member-card-img-top" alt="...">
-                            <div class="member-card-body">
-                                <h5 class="member-card-title">Nick Carter</h5>
-                                <p class="card-text">Lead Vocals, Performer, Songwriter.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="member-row">
-                    <div class="member-col-md-6">
-                        <div class="member-card" style="width: 18rem;">
-                            <img src="images/kevin.jpg" class="member-card-img-top" alt="...">
-                            <div class="member-card-body">
-                                <h5 class="member-card-title">Kevin Richardson</h5>
-                                <p class="card-text">Vocalist, Backing Vocals, Performer, Songwriter.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="member-col-md-6">
-                        <div class="member-card" style="width: 18rem;">
-                            <img src="images/brian.jpg" class="member-card-img-top" alt="...">
-                            <div class="member-card-body">
-                                <h5 class="member-card-title">Brian Littrell</h5>
-                                <p class="card-text">Lead Vocals, Backing Vocals, Performer, Songwriter.</p>
-                            </div>
-                        </div>
+                    <div class="youtube-video mb-4" style="background-color: #000; width: 80%; max-width: 600px;">
+                        <h4 class="text-white mt-3">Westlife - If I Let You Go (Official Video)</h4>
+                        <video
+                            width="100%"
+                            height="350"
+                            controls
+                            poster="img/vid2.jpg"
+                        >
+                            <source src="vid/IfILetYouGo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="album">
+        </section>
+        <section id="awards" class="m-5 p-5">
             <div class="container">
-                <h1 class="sub-title">Top Album</h1>
-                <hr class="album-line">
-                <div class="album-list">
-                    <div>
-                        <i class="fa-solid fa-compact-disc"></i>
-                        <h3>Backstreet Boys (1996)</h3>
-                        <p>Debut album featuring hits like "Quit Playing Games" and "As Long As You Love Me."</p>
-                        <a href="https://en.wikipedia.org/wiki/Backstreet_Boys_(album)" target="_blank">Click to Learn More</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-compact-disc"></i>
-                        <h3>Millennium (1999)</h3>
-                        <p>Includes iconic hits like "I Want It That Way" and "Larger Than Life."</p>
-                        <a href="https://en.wikipedia.org/wiki/Millennium_(Backstreet_Boys_album)" target="_blank">Click to Learn More</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-compact-disc"></i>
-                        <h3>Black & Blue (2000)</h3>
-                        <p>Featuring hits like "Shape of My Heart" and "The Call."</p>
-                        <a href="https://en.wikipedia.org/wiki/Black_%26_Blue" target="_blank">Click to Learn More</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-compact-disc"></i>
-                        <h3>Never Gone (2005)</h3>
-                        <p>Marking a more mature sound, with songs like "Incomplete" and "Just Want You to Know."</p>
-                        <a href="https://en.wikipedia.org/wiki/Never_Gone" target="_blank">Click to Learn More</a>
-                    </div>
-                </div>
+                <h2 class="text-center mb-4">Awards and Achievements</h2>
+                <hr>
+                <table class="table table-bordered table-hover table-striped mt-4">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Award</th>
+                            <th>Wins</th>
+                            <th>Nominations</th>
+                            <th>Highlight</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BRIT Awards</td>
+                            <td>2</td>
+                            <td>6</td>
+                            <td>Best Pop Act</td>
+                        </tr>
+                        <tr>
+                            <td>Irish Meteor Music Awards</td>
+                            <td>14</td>
+                            <td>-</td>
+                            <td>Most Popular Band in Ireland</td>
+                        </tr>
+                        <tr>
+                            <td>MTV Europe Music Awards</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>Best UK & Ireland Act</td>
+                        </tr>
+                        <tr>
+                            <td>World Music Awards</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>Best-Selling International Artist</td>
+                        </tr>
+                        <tr>
+                            <td>Record of the Year</td>
+                            <td>4</td>
+                            <td>-</td>
+                            <td>Iconic Hit Singles</td>
+                        </tr>
+                        <tr>
+                            <td>IFPI Platinum Europe Awards</td>
+                            <td>10</td>
+                            <td>-</td>
+                            <td>Platinum-Certified Albums</td>
+                        </tr>
+                        <tr>
+                            <td>Silver Clef Awards</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>International Award</td>
+                        </tr>
+                        <tr>
+                            <td>TMF Awards (Belgium)</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>Best International Pop Act</td>
+                        </tr>
+                        <tr>
+                            <td>Smash Hits Awards</td>
+                            <td>28</td>
+                            <td>-</td>
+                            <td>Multiple Wins Including Best Band</td>
+                        </tr>
+                        <tr>
+                            <td>Nordoff Robbins</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>Outstanding Contribution to Music</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-        <div id="award">
-            <div class="award-container mt-5">
-                <h2 class="award-sub-title">Top Awards</h2>
-                <hr class="award-line">
-                <div class="award-row">
-                    <div class="award-card">
-                        <img src="images/DNA.png" class="award-card-img-top" alt="AJ McLean">
-                        <div class="award-card-body">
-                            <h5 class="award-card-title">Grammy Award for Best Pop Vocal Album (2019)</h5>
-                            <p class="card-text">
-                                Awarded for the album "DNA"
-                                <br>
-                                American Music Award for Favorite Pop/Rock Band (1999)
-                                <br>
-                                Billboard Music Award for Top Selling Album (1999) for "Millennium".
-                            </p>
-                        </div>
-                    </div>
-                    <div class="award-card">
-                        <img src="images/WANT.jpg" class="award-card-img-top" alt="Howie Dorough">
-                        <div class="award-card-body">
-                            <h5 class="award-card-title">Billboard Music Award for Top Selling Artist (1999)</h5>
-                            <p class="card-text">
-                                Billboard Music Award for Top Selling Artist (1999)
-                                <br>
-                                MTV Video Music Award for Best Pop Video for "I Want It That Way" (1999)
-                                <br>
-                                Teen Choice Award for Best Music Group (2000).
-                            </p>
-                        </div>
-                    </div>
-                    <div class="award-card">
-                        <img src="images/3rd.jpg" class="award-card-img-top" alt="Nick Carter">
-                        <div class="award-card-body">
-                            <h5 class="award-card-title">MTV Europe Music Award for Best Pop Group (2000)</h5>
-                            <p class="card-text">
-                                Awarded for "DNA"
-                                <br>
-                                Billboard Music Award for Top Selling Song (1999) for "I Want It That Way".
-                            </p>
-                        </div>
-                    </div>
-                    <div class="award-card">
-                        <img src="images/5th.jpg" class="award-card-img-top" alt="Kevin Richardson">
-                        <div class="award-card-body">
-                            <h5 class="award-card-title">American Music Award for Favorite Pop/Rock Group (1999)</h5>
-                            <p class="card-text">
-                                American Music Award for Favorite Pop/Rock Group (1999)
-                                <br>
-                                Billboard Music Award for Top Artist (1999).
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
-            <p>
-                <i class="fa-solid fa-copyright"></i>
-                Backstreet Boys - Joshua Calopez
-            </p>
-        </div>
-        <script src="script.js"></script>
+        </section>
+        <footer>
+            <p>&copy; 2025 Westlife Fan Page. All Rights Reserved.</p>
+            <p>by. Joshua Calopez</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
